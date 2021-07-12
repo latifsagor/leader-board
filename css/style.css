@@ -34,7 +34,8 @@ header{
     justify-content: center;
     align-items: center;
     background-color: #562EFF;
-    height: 94px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     width: 100%;
 }
 
@@ -65,6 +66,7 @@ header{
 
 .menu{
     display: flex;
+    align-items: center;
 }
 
 .menu-item ul {
@@ -209,6 +211,13 @@ Media Queries
 
 /* Mobile device */
 @media only screen and (max-width: 688px) {
+    .header-container{
+        width: 100%;
+    }
+
+    .header-details{
+        flex-direction: column;
+    }
     .container{
         width: 100%;
     }
@@ -223,6 +232,10 @@ Media Queries
 }
 
 @media only screen and (min-width: 689px) and (max-width: 992px) {
+    .header-details{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
     .container{
         width: 100%;
     }
