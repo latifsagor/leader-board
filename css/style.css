@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 
@@ -20,6 +26,66 @@ body{
     padding: 5px 30px 35px 30px;
     margin-top: 20px;
     border-radius: 5px;
+}
+
+/* header */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #562EFF;
+    height: 94px;
+    width: 100%;
+}
+
+.header-container{
+    width: 870px;
+}
+
+.header-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-info{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 40px;
+    height: 51px;
+}
+
+.idea{
+    color: #fff;
+    margin-left: 15px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu-item ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu-item ul {
+
+}
+
+.menu-item ul li a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.profile{
+    height: 51px;
+    width: 51px;
 }
 
 /* top players style */
